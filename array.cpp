@@ -8,12 +8,12 @@ int main (){
 	   */
 	 
    int n_hari;
-   double rata_rata, jumlah;
+   float rata_rata, jumlah;
    
    // input
    cin >> n_hari;
     for (int j=0; j<n_hari; j++){
-    	double n[j];
+    	float n[j];
     	cin >> n[j];
     	jumlah += n[j];
 	}
