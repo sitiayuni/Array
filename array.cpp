@@ -11,7 +11,9 @@ int main (){
    float rata_rata, jumlah;
    
    // input
+	
    cin >> n_hari;
+	
     for (int j=0; j<n_hari; j++){
     	float n[j];
     	cin >> n[j];
